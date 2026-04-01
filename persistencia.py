@@ -60,19 +60,3 @@ def registrar_nuevo_dato(nuevo_registro):
     else:
         print("Operación cancelada. No se han realizado cambios.")
         return False
-
-#PRUEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-if __name__ == "__main__":
-    test_dato = {
-        "fecha": "2026-04-01",
-        "distrito": "Lisboa",
-        "zona": "Sur",
-        "temp": 22.5,
-        "humedad": 30,
-        "viento": 5,
-        "lluvia": 0,
-        "alertas": []
-    }
-    
-    print("--- INICIANDO PRUEBA DE PERSISTENCIA ---")
-    registrar_nuevo_dato(test_dato)
