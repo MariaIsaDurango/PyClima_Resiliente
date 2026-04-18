@@ -74,7 +74,7 @@ else:
     st.sidebar.title(f"👤 {st.session_state.usuario_autenticado.get('nombre')}")
     menu = st.sidebar.radio(
         "Navegación",
-        ["Registrar Datos", "Consultar Datos (por zonas)", "Ver Histórico (todas las zonas)", "Alertas Activas", "Salir"]
+        ["Registrar Datos", "Consultar Datos (por zonas)", "Ver Histórico (todas las zonas)", "Alertas Activas",]
     )
     
     if st.sidebar.button("Cerrar Sesión"):
